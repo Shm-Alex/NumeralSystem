@@ -12,16 +12,17 @@
         }
         public char[] ToDigits(uint n)
         {
-            List<char> result = new List<char>();
+            Stack<char> result = new Stack<char>();
             uint radix = (uint)digits.Length;
             while (!(n < digits.Length))
             {
                 var indx = n % (radix);
-                result.Add(digits[indx]);
+                result.Push(digits[indx]);
                 n /= radix;
             }
-            result.Add(digits[n]);
+            result.Push(digits[n]);
             return result.ToArray();
         }
+        public string ToDigitsStr(uint n)=> new string(ToDigits(n));
     }
 }
