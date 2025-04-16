@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeralSystem", "NumeralSys
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeralSystem.UnitTest", "NumeralSystem.UnitTest\NumeralSystem.UnitTest.csproj", "{796F79B4-AD18-437B-9384-114A9F3B4BF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUssage", "ConsoleUssage\ConsoleUssage.csproj", "{D1E8AEA5-8A90-40A2-9B59-D5F72EE6C707}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{796F79B4-AD18-437B-9384-114A9F3B4BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{796F79B4-AD18-437B-9384-114A9F3B4BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{796F79B4-AD18-437B-9384-114A9F3B4BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E8AEA5-8A90-40A2-9B59-D5F72EE6C707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E8AEA5-8A90-40A2-9B59-D5F72EE6C707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E8AEA5-8A90-40A2-9B59-D5F72EE6C707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E8AEA5-8A90-40A2-9B59-D5F72EE6C707}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
